@@ -6,6 +6,7 @@ while True:
     total += 1
     if total == 5:
         print("You're unable to guess after 5 trials: ")
+        print(f"The secret number is {random_no}")
         break
     elif guess > random_no:
         print("Guess to high!")
