@@ -11,7 +11,7 @@ def calculator():
     
 
 while True:
-    print("---BMI CALCULATOR---")
+    print("----BMI CALCULATOR----")
     option = input("Enter '1' to calculate your BMI and 'Q' to quit: ").upper()
     if option == "1":
         weight = float(input("Pls enter your weight in kg: "))
