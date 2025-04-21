@@ -2,9 +2,9 @@ student = []
 
 def add_student():
     print("Enter student details")
-    name = input("Enter student name: "). capitalize()
+    name = input("Enter student name: ").capitalize()
     age = input("Enter student age: ")
-    student_class = input("Enter student class: "). capitalize()
+    student_class = input("Enter student class: ").capitalize()
     if name not in student:
         data = {"Student name": name, "Student age": age, "Student class": student_class}
         student.append(data)
